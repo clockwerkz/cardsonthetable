@@ -40,9 +40,16 @@ nav {
     justify-content: space-between;
 }
 
-nav ul {
+ul.navBar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+
+/* information Section */
+section.information {
+    display: flex;
 }
 
 /* photoLinks Section */
@@ -52,4 +59,11 @@ nav ul {
 }
 .links {
     margin: 5px;
+}
+
+.links h4 {
+    position: relative;
+    color: #FFF;
+    background-color: #000;
+    bottom: 30px;
 }
