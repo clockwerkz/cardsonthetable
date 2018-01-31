@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 ul {
     list-style: none;
 }
@@ -12,7 +16,7 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-section:not(.hero), nav, footer, .container {
+section:not(.hero), footer, .container {
     width: 90%;
     margin: 0 auto;
 }
@@ -36,20 +40,55 @@ section:not(.hero), nav, footer, .container {
 
 /* Nav Section */
 nav {
+    height: 100px;
+    color: #FFF;
+    background-color: #112E1E;
+}
+
+nav .container {
     display: flex;
     justify-content: space-between;
 }
 
+nav a:link, nav a:visited {
+    color: #FFF;
+}
+
 ul.navBar {
+    font-size: 24px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
 }
 
 
 /* information Section */
 section.information {
+    padding: 100px 0;
     display: flex;
+    justify-content: center;
+}
+
+.mainInfo{
+    width: 40%;
+}
+
+.whereToFind {
+    width: 40%;
+    border: 1px solid #b3b3b3;
+    padding: 15px;
+}
+
+.whereToFind h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.storeInfo {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* photoLinks Section */
@@ -62,8 +101,12 @@ section.information {
 }
 
 .links h4 {
+    text-align: center;
+    height: 65px;
+    padding: 15px;
+    font-size: 24px;
     position: relative;
     color: #FFF;
-    background-color: #000;
-    bottom: 30px;
+    background-color: #112E1E;
+    bottom: 65px;
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Cards on the Table</title>
 </head>
@@ -16,18 +17,20 @@
     </section> <!-- .hero Section-->
 
     <nav>
-        <ul class="navBar">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Booking</a></li>
-            <li><a href="#">Games</a></li>
-            <li><a href="#">Food &amp; Drink</a></li>
-            <li><a href="#">Online Shop</a></li>
-            <li><a href="#">Events</a></li>
-        </ul>
-        <form>
-            <input type="text" placeholder="Enter Keyword..."> 
-            <div class="searchBtn">Search</div>
-        </form>
+        <div class="container">
+            <ul class="navBar">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Booking</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Food &amp; Drink</a></li>
+                <li><a href="#">Online Shop</a></li>
+                <li><a href="#">Events</a></li>
+            </ul>
+            <div class="searchBar">
+                <input type="text" placeholder="Enter Keyword..."> 
+                <a class="searchBtn" href="#">Search</a>
+            </div> <!--searchBar -->
+        </div> <!-- .container -->
     </nav>
 
     <section class="information">
@@ -39,15 +42,17 @@
         </div>
         <div class="whereToFind">
             <h3>How to Find Us</h3>
-            <ul class="hours">
-                <li>Mon-Fri. 10:00-19:00</li>
-                <li>Sat. 10:00-21:00</li>
-                <li>Sun. 10:00-17:00</li>
-            </ul>
-            <ul class="contact">
-                <li><a href="#">ben@games.com</a></li>
-                <li>+77 2949 677988</li>
-            </ul>
+            <div class="storeInfo">
+                <ul class="hours">
+                    <li>Mon-Fri. 10:00-19:00</li>
+                    <li>Sat. 10:00-21:00</li>
+                    <li>Sun. 10:00-17:00</li>
+                </ul>
+                <ul class="contact">
+                    <li><a href="#">ben@games.com</a></li>
+                    <li>+77 2949 677988</li>
+                </ul>
+            </div> <!-- .storeInfo -->
             <img src="" alt="Google Map of Cards on the Table">
         </div>
     </section> <!-- .information Section-->
@@ -55,19 +60,19 @@
     <section class="photoLinks">
         <div class="links">
           <a href="#">
-              <img src="http://via.placeholder.com/320x370" alt="Browse Game Collection">
+              <img src="http://via.placeholder.com/370x320" alt="Browse Game Collection">
               <h4>Browse Games</h4>
           </a>  
         </div>
         <div class="links">
           <a href="#">
-              <img src="http://via.placeholder.com/320x370" alt="Food and Drink Link">
+              <img src="http://via.placeholder.com/370x320" alt="Food and Drink Link">
               <h4>Food &amp; Drink</h4>
           </a>  
         </div>
         <div class="links">
           <a href="#">
-              <img src="http://via.placeholder.com/320x370" alt="Online Shop">
+              <img src="http://via.placeholder.com/370x320" alt="Online Shop">
               <h4>Online Shop</h4>
           </a>  
         </div>
