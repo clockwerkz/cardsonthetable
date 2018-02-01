@@ -6,6 +6,8 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #6c6d6d;
 }
 
 ul {
@@ -13,12 +15,34 @@ ul {
 }
 
 a:link, a:visited {
+    color: #222;
     text-decoration: none;
 }
 
-section:not(.hero), footer, .container {
-    width: 90%;
+.container {
+    width: 80%;
     margin: 0 auto;
+}
+
+input::placeholder {
+    color: #c0c0c0;
+}
+
+a.orangeBtn {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 20px;
+    border-radius: 3px;
+    background-color: #e87530;
+}
+
+a.greenBtn {
+    color: #FFF;
+    font-weight: 400;
+    padding: 5px 20px;
+    border-radius: 3px;
+    background-color: #0f331f;
 }
 
 /* hero Section */
@@ -30,24 +54,29 @@ section:not(.hero), footer, .container {
 }
 
 .hero h1 {
-    font-size: 56px;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 100px;
     padding: 50px 0 10px;
+    color: #e87530;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
 
 .hero h2 {
-    font-size: 32px;
+    color: white;
+    font-size: 42px;
 }
 
 /* Nav Section */
 nav {
-    height: 100px;
+    height: 80px;
     color: #FFF;
-    background-color: #112E1E;
+    background-color: #0f331f;
 }
 
 nav .container {
     display: flex;
     justify-content: space-between;
+    height: 100%;
 }
 
 nav a:link, nav a:visited {
@@ -56,11 +85,20 @@ nav a:link, nav a:visited {
 
 ul.navBar {
     font-size: 24px;
+    font-weight: 300;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+}
+
+nav input {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
 }
 
 
@@ -73,6 +111,18 @@ section.information {
 
 .mainInfo{
     width: 40%;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.mainInfo h2 {
+    font-family: 'Berkshire Swash', cursive;
+    color: #0f331f;
+    font-size: 40px;
+}
+
+.mainInfo p {
+    padding: 15px 0;
 }
 
 .whereToFind {
@@ -82,6 +132,8 @@ section.information {
 }
 
 .whereToFind h3{
+    color: #0f331f;
+    font-size: 40px;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -89,6 +141,10 @@ section.information {
 .storeInfo {
     display: flex;
     justify-content: space-between;
+}
+
+.imageMap {
+    width: 100%;
 }
 
 /* photoLinks Section */
@@ -107,6 +163,60 @@ section.information {
     font-size: 24px;
     position: relative;
     color: #FFF;
-    background-color: #112E1E;
+    background-color: #0f331f;
     bottom: 65px;
+}
+
+/*More Info Section */
+.borderInfo {
+    width: 50%;
+    margin: 20px auto 60px auto;
+    padding: 15px;
+    border: 1px solid #b3b3b3;
+    text-align: center;
+}
+
+.borderInfo p{
+    margin: 20px 0;
+}
+
+section.moreInfo {
+    width: 100%;
+}
+
+.emailInfo {
+    padding: 15px 0;
+    background-color: #e87530;
+    color: white;
+}
+
+.emailInfo .container {
+    display: flex;
+    justify-content: center;
+}
+
+.emailInfo input {
+    margin: 0 20px 0 10px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #e0e1ec;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+}
+
+.footerLinks {
+    justify-content: space-between;
+}
+
+.socialMedia {
+    justify-content: center;
+}
+
+.socialMedia li {
+    padding: 15px;
 }
