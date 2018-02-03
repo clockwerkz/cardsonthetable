@@ -170,11 +170,12 @@ section.information {
     justify-content: space-between;
 }
 .links {
+    width: 30%;
     margin: 5px;
 }
 
 .links img {
-    max-width: 420px;
+    max-width: 100%;
 }
 
 .links h4 {
