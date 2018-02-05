@@ -109,6 +109,7 @@ nav input {
 section.information {
     padding: 100px 0;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .mainInfo{
@@ -167,6 +168,7 @@ section.information {
 
 .photoLinks .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .links {
@@ -186,6 +188,18 @@ section.information {
     color: #FFF;
     background-color: #0f331f;
     margin-top: -5px;
+}
+
+
+
+@media (max-width: 600px) {
+    .photoLinks .container {
+        justify-content: center;
+    }
+    
+    .links {
+        width: 75%;
+    }
 }
 
 /*More Info Section */
@@ -262,4 +276,71 @@ footer .text {
 .socialMedia li {
     color: #000;
     padding: 15px;
+}
+
+
+/* Media Queries */
+
+
+
+@media (max-width: 800px) and (min-width: 601px)  {
+
+
+    /* photoLinks Section */
+
+    .photoLinks .container {
+        justify-content: center;
+    }
+
+    .links {
+        width: 50%;
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+
+
+
+    /* Nav Section */
+    nav {
+        height: auto;
+    }
+    ul.navBar {
+        flex-direction: column;
+    }
+
+    /* Main Information Section */
+    .mainInfo{
+        text-align: center;
+        flex-basis: 100%;
+        align-content: center;
+        margin-bottom: 50px;
+    }
+
+    .mainInfo h2 {
+        margin-bottom: 10px;
+    }
+
+    .mainInfo p {
+        padding: 10px 0;
+    }
+    
+    .mainInfo a.orangeBtn {
+        margin: 10px 0 20px 0;
+    }
+
+    .whereToFind {
+        flex-basis: 100%;
+    }
+   
+    /* photoLinks Section */ 
+
+    .photoLinks .container {
+        justify-content: center;
+    }
+    
+    .links {
+        width: 75%;
+    }
 }
