@@ -47,6 +47,14 @@ a.greenBtn {
     display: inline-block;
 }
 
+input {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
 /* hero Section */
 .hero {
     background-image: url('../img/jaciel-melnik-399287.jpg');
@@ -96,12 +104,8 @@ ul.navBar {
 
 }
 
-nav input {
-    font-size: 16px;
-    color: #333;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
+nav a.orangeBtn {
+    margin-left: 10px;
 }
 
 
@@ -240,6 +244,10 @@ section.moreInfo {
 .emailInfo .container {
     display: flex;
     justify-content: center;
+}
+
+.emailInfo p {
+    margin-top:8px;
 }
 
 .emailInfo input {
