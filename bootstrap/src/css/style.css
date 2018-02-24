@@ -10,7 +10,7 @@ h1 {
 
 /* hero Section */
 #hero {
-  background-image: url("/img/jaciel-melnik-399287.jpg");
+  background-image: url("../img/jaciel-melnik-399287.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
