@@ -8,7 +8,7 @@ body {
 h1 {
   font-family: 'Berkshire Swash'; }
 
-/* hero Section */
+/* hero Section  */
 #hero {
   background-image: url("../img/jaciel-melnik-399287.jpg");
   background-size: cover;
@@ -35,6 +35,11 @@ ul.navbar-nav {
 @media (max-width: 1200px) {
   nav {
     font-size: 1rem; } }
+
+@media (max-width: 991px) {
+  nav .btn {
+    display: block;
+    width: 100%; } }
 
 /* Welcome Section */
 #welcome h1 {
@@ -77,3 +82,15 @@ ul.socialMedia li {
   list-style: none;
   font-size: 2.5rem;
   padding: 0 15px; }
+
+/* MEDIA QUERIES */
+@media (max-width: 990px) {
+  .form-inline .form-control {
+    display: block;
+    width: 100%; }
+  nav {
+    font-size: 1.5rem; } }
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  nav {
+    font-size: 1rem; } }
