@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash");
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: lighter; }
+
+h1 {
+  font-family: 'Berkshire Swash'; }
+
+/* hero Section */
+#hero {
+  background-image: url("/img/jaciel-melnik-399287.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 650px; }
+
+#hero h1 {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 100px;
+  padding: 50px 0 10px;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black; }
+
+#hero h2 {
+  color: white;
+  font-size: 42px;
+  font-weight: bold; }
+
+/* Nav Section */
+ul.navbar-nav {
+  display: flex;
+  justify-content: space-between; }
+
+@media (max-width: 1200px) {
+  nav {
+    font-size: 1rem; } }
+
+/* Welcome Section */
+#welcome h1 {
+  font-size: 4rem;
+  font-weight: bold; }
+
+#welcome h3 {
+  font-size: 2.5rem;
+  font-weight: bold; }
+
+ul.welcome-info {
+  list-style: none;
+  font-size: 1.1rem;
+  padding: 0; }
+
+/* What-To-Do Section */
+#what-to-do {
+  padding: 100px 0; }
+
+/* New-To-Games Section */
+#new-to-games {
+  padding: 100px 0; }
+
+#new-to-games h3 {
+  font-size: 2.25rem;
+  font-weight: bold; }
+
+/* Email Section */
+#email p {
+  font-size: 1rem; }
+
+/* Footer Section */
+#main-footer {
+  font-size: 1.0rem; }
+
+#main-footer a, #main-footer p {
+  color: #000; }
+
+ul.socialMedia li {
+  list-style: none;
+  font-size: 2.5rem;
+  padding: 0 15px; }
