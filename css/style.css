@@ -308,14 +308,26 @@ footer .text {
 
 @media (max-width: 600px) {
 
-
+    .container {
+        width: 100%;
+    }
 
     /* Nav Section */
     nav {
         height: auto;
     }
-    ul.navBar {
+    .navBar {
         flex-direction: column;
+    }
+
+    .navBar li {
+        margin-bottom: 5px;
+        flex-basis: 100%;
+    }
+
+    .navBar a.orangeBtn, .navBar input {
+        margin: 0;
+        width: 100%;
     }
 
     /* Main Information Section */
